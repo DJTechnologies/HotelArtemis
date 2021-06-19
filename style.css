@@ -1,0 +1,34 @@
+h1 {
+  background-color: rgb(145, 105, 45);
+  color: rgb(174, 186, 145);
+  font-family: fantasy;
+  font-size: 60px;
+  text-align: center;
+}
+.container {
+  background-color: rgb(145, 105, 45);
+  font-family: cursive;
+  color: white;
+  border: solid 8px grey;
+  border-radius: 180px;
+  width: 270px;
+  height: 270px;
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+body {
+  background-color: rgb(12, 12, 11);
+}
+article {
+  color: white;
+  font-size: 14px;
+}
+
+.right-side {
+  text-align: right;
+  color: white;
+  font-size: 25px;
+}
+/* must have . before class  */
