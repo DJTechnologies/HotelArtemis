@@ -1,25 +1,30 @@
 h1 {
-  background-color: rgb(145, 105, 45);
+  background-color: #0e0325;
   color: rgb(174, 186, 145);
-  font-family: fantasy;
+  font-family: cursive;
   font-size: 60px;
   text-align: center;
 }
 .container {
-  background-color: rgb(145, 105, 45);
+  text-align: center;
+  background-color: #0e0325;
   font-family: cursive;
   color: white;
-  border: solid 8px grey;
+  border: 8px yellow;
+  border-style: double;
   border-radius: 180px;
   width: 270px;
   height: 270px;
   padding: 40px;
+  margin: -55px;
+  -webkit-margin-top-collapse: collapse;
   display: flex;
-  text-align: center;
+
   justify-content: center;
 }
+/* check on margin and display*/
 body {
-  background-color: rgb(12, 12, 11);
+  background-color: #19094f;
 }
 article {
   color: white;
@@ -32,3 +37,17 @@ article {
   font-size: 25px;
 }
 /* must have . before class  */
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #5637dd;
+}
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
