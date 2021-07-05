@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Artemis</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- mdlinks -->
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- end -->
     <script
       src="https://kit.fontawesome.com/6f3057d0e4.js"
       crossorigin="anonymous"
@@ -16,17 +33,35 @@
       type="images"
     />
   </head>
+
   <body>
     <!-- header -->
     <header class="header" id="header">
       <div class="head-top">
         <div class="site-name">
-          <span>GeekProbin</span>
+          <span> HotelArtemis </span>
         </div>
         <div class="site-nav">
-          <span id="nav-btn">Menu <i class="fas fa-bars"></i></span>
+          <span id="nav-btn">Menu <i class="fas fa-bars"></i> </span>
         </div>
       </div>
+      <!-- <div class="sidenav" id="sidenav">
+            <span class="cancel-btn" id="cancel-btn">
+              <i class="fas fa-times"></i>
+            </span> -->
+
+      <!-- <ul class="navbar">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#rooms">Rooms</a></li>
+              <li><a href="#restaraunt">Restaraunt</a></li>
+              <li><a href="#spa">Spa</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#aboutUs">About Us</a></li>
+              <li><a href="#customers">Customers</a></li>
+            </ul>
+            <button class="btn sign-up">Book Now</button>
+            <button class="btn log-in">Log In</button>
+          </div> -->
       <div class="head-bottom flex">
         <h2>Hotel, Spa, & Restaraunt</h2>
         <p>
@@ -222,7 +257,7 @@
         <!-- single room -->
         <article class="room">
           <div class="room-image">
-            <img src="images/room2.jpg" alt="Luxuries Room" />
+            <img src="images/Room1.jpg" alt="Luxuries Room" />
           </div>
           <div class="room-text">
             <h3>Luxury Rooms</h3>
@@ -261,7 +296,7 @@
         <!-- single room -->
         <article class="room">
           <div class="room-image">
-            <img src="images/Room1.jpg" alt="Luxuries Room" />
+            <img src="images/Room3.jpg" alt="Events" />
           </div>
           <div class="room-text">
             <h3>Events</h3>
@@ -292,7 +327,7 @@
               eius iusto id culpa earum ullam inventore ipsum libero ut.
               Accusantium, maxime!
             </p>
-            <p class="rate"><span>Custum</span> Per size</p>
+            <p class="rate"><span>$250.00</span> Per Night</p>
             <button type="button" class="btn">Book Now</button>
           </div>
         </article>
@@ -305,127 +340,130 @@
         <div class="title">
           <h2>customers</h2>
         </div>
-        <div class = "customers-container">
+        <div class="customers-container">
           <!-- single customer -->
-        <div class="customer">
-          <div class = "rating"></div>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
+          <div class="customer">
+            <div class="rating">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+            </div>
+            <h3>We Loved It</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              voluptatibus.
+            </p>
+            <img src="images/pexels-photo-1642883.jpg" alt="customer image" />
+            <span>Customer Name, Country</span>
+          </div>
+          <!-- end of single customer -->
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+            </div>
+            <h3>Sooooo Relaxing!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              voluptatibus.
+            </p>
+            <img src="images/pexels-photo-5938595.jpg" alt="customer image" />
+            <span>Customer Name, Country</span>
+          </div>
+          <!-- end of single customer -->
+          <!-- single customer -->
+          <div class="customer">
+            <div class="rating">
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+              <span> <i class="fas fa-star"></i> </span>
+            </div>
+            <h3>The FOOD!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              voluptatibus.
+            </p>
+            <img src="images/pexels-photo-1824353.jpg" alt="customer image" />
+            <span>Customer Name, Country</span>
+          </div>
+          <!-- end of single customer -->
         </div>
-        <h3>We Loved It</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-          voluptatibus.
-        </p>
-        <img src="images/pexels-photo-1642883.jpg" alt="customer image" />
-        <span>Customer Name, Country</span>
       </div>
-      <!-- end of single customer -->
-      <!-- single customer -->
-        <div class="customer">
-          <div class = "rating"></div>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-        </div>
-        <h3>Sooooo Relaxing!</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-          voluptatibus.
-        </p>
-        <img src="images/pexels-photo-5938595.jpg" alt="customer image" />
-        <span>Customer Name, Country</span>
-      </div>
-      <!-- end of single customer -->
-      <!-- single customer -->
-        <div class="customer">
-          <div class = "rating"></div>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-          <span> <i class="fas fa-star"></i> </span>
-        </div>
-        <h3>The FOOD!</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
-          voluptatibus.
-        </p>
-        <img src="images/pexels-photo-2736387.jpg" alt="customer image" />
-        <span>Customer Name, Country</span>
-      </div>
-      <!-- end of single customer -->
-    </div>
-  </div>
-</section>
- <!-- end of body content -->
- <!-- footer -->
- <footer class = "footer">
-   <div class = "footer-container">
-     <div>
-       <h2>About Us</h2>
-       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum totam iusto quod a soluta deleniti facilis eligendi, blanditiis nam velit?</p>
-        <ul class = "social-icons">
-            <li class = "flex">
-              <i class = "fa fa-twitter fa-2px"></i>
+    </section>
+    <!-- end of body content -->
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div>
+          <h2>About Us</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            totam iusto quod a soluta deleniti facilis eligendi, blanditiis nam
+            velit?
+          </p>
+          <ul class="social-icons">
+            <li class="flex">
+              <i class="fa fa-twitter fa-2x"></i>
             </li>
-            <li class = "flex">
-              <i class = "fa fa-instagram fa-2px"></i>
+            <li class="flex">
+              <i class="fa fa-instagram fa-2x"></i>
             </li>
-            <li class = "flex">
-              <i class = "fa fa-facebook fa-2px"></i>
+            <li class="flex">
+              <i class="fa fa-facebook fa-2x"></i>
             </li>
-        </ul>
-      </div>
-      <div>
-        <h2>Usefil Links</h2>
-        <a href="#">Rooms</a>
-        <a href="#">Spa</a>
-        <a href="#">Restaraunt</a>
-        <a href="#">Events</a>
-      </div>
-      <div>
-        <h2>Privacy</h2>
-        <a href="#">Careers</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact Us</a>
-        <a href="#">Services</a>
-      </div>
-      <div>
-        <h2>Have A Question? </h2>
-        <div class = "contact-item">
-          <span>
-            <i class = "fas fa-map-marker-alt"></i>
-          </span>
-          <span>
-            666 Fake st Beach RD, Miami, Florida, USA 33109
-          </span>
+          </ul>
         </div>
-        <div class = "contact-item">
-          <span>
-            <i class = "fas fa-phone-alt"></i>
-          </span>
-          <span>
-            666-666-6666
-          </span>
+        <div>
+          <h2>Useful Links</h2>
+          <a href="#">Rooms</a>
+          <a href="#">Spa</a>
+          <a href="#">Restaraunt</a>
+          <a href="#">Events</a>
         </div>
-        <div class = "contact-item">
-          <span>
-            <i class = "fas fa-envelope"></i>
-          </span>
-          <span>
-            666@domain.com
-          </span>
+        <div>
+          <h2>Privacy</h2>
+          <a href="#">Careers</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Services</a>
+        </div>
+        <div>
+          <h2>Have A Question?</h2>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <span> 666 Fake st Beach RD, Miami, Florida, USA 33109 </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <span> 666-666-6666 </span>
+          </div>
+          <div class="contact-item">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span> 666@domain.com </span>
+          </div>
         </div>
       </div>
-   </div>
- </footer>
+    </footer>
 
     <script src="main.js"></script>
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+    ></script>
   </body>
 </html>
